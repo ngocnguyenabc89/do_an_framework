@@ -14,7 +14,7 @@ namespace do_an_framework.Models
         public int product_state { get; set; }
         public int product_kind { get; set; }
         public string product_image { get; set; }
-        public string product_list { get; set; }
+        public int category_id { get; set; }
         public DateTime product_created_at { get; set; }
 
         public string category_name { get; set; }
