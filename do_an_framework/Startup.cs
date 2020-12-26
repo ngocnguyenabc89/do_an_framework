@@ -54,6 +54,10 @@ namespace do_an_framework
                     name: "admin",
                     pattern: "admin/{controller}/{action=Index}/{id?}"
                     );
+                endpoints.MapControllerRoute(
+                    name: "admin",
+                    pattern: "admin/{controller=Order}/{action}/{id?}"
+                    );
             });
 
             

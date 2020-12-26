@@ -52,7 +52,6 @@ namespace do_an_framework.Controllers
 
         public async Task<IActionResult> index()
         {
-
             return View(await this.UserList());
         }
 
