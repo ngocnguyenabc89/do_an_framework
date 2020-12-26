@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DO_AN\\do_an_framework\\do_an_framework\\do_an_framework.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\PROJECT\\do_an_framework\\do_an_framework\\do_an_framework.csproj": {}
   },
   "projects": {
-    "D:\\DO_AN\\do_an_framework\\do_an_framework\\do_an_framework.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\PROJECT\\do_an_framework\\do_an_framework\\do_an_framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DO_AN\\do_an_framework\\do_an_framework\\do_an_framework.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PROJECT\\do_an_framework\\do_an_framework\\do_an_framework.csproj",
         "projectName": "do_an_framework",
-        "projectPath": "D:\\DO_AN\\do_an_framework\\do_an_framework\\do_an_framework.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\DO_AN\\do_an_framework\\do_an_framework\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\PROJECT\\do_an_framework\\do_an_framework\\do_an_framework.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\PROJECT\\do_an_framework\\do_an_framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
